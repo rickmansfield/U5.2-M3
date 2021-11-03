@@ -19,7 +19,7 @@ import builtins
 
 
 def csGroupAnagrams(strs):
-    dict1 = dict()
+    dict1 = dict() # could have used {} instead of dict()
     for eachWord in strs: 
         itsKey = tuple(sorted(eachWord))
         # print("its Key", itsKey)
