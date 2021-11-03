@@ -1,21 +1,24 @@
+# print(help(map))
 def csIsomorphicStrings(a, b):
-    max_chars = 256
-    m = len(a)
-    n = len(b)
-    if m != n :
+    maxCharCapacity = 128
+    lenA = len(a)
+    lenB = len(b)
+    if lenA != lenB:
         return False
-    marked = [False] * max_chars
-    map = [-1] * max_chars
-    for i in range(n):
-        if map[ord(a[i])] == -1:
-            if marked[ord(b[i])] == True:
+    tagged = [False] * maxCharCapacity
+    myMap = [-1] * maxCharCapacity
+    for i in range(lenB):
+        if myMap[ord(a[i])] == -1:
+            if tagged[ord(b[i])] == True:
                 return False
-            marked[ord(b[i])] = True
-            map[ord(a[i])] = b[i]
-            
-        elif map[ord(a[i])] != b[i]:
+            tagged[ord(b[i])] = True
+            myMap[ord(a[i])] = b[i]
+        if myMap[ord(a[i])] !=b[i]:
             return False
-            
     return True
 
 print(csIsomorphicStrings("odd", "egg"))
+print(csIsomorphicStrings("foo", "bar"))
+print(csIsomorphicStrings("abca", "zbxz"))
+print(csIsomorphicStrings("abc", ""))
+print(csIsomorphicStrings("$%#", "112"))
