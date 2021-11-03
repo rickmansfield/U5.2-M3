@@ -11,18 +11,20 @@ import builtins
     # The argument must be an iterable if specified.
 # print(help(dict.values))
     #  an object providing a view on D's values
+# print(help(dict.get))
+    # Return the value for key if key is in the dictionary, else default.
 
 
 def csGroupAnagrams(strs):
-    ricksDiclol = dict()
+    dict1 = dict()
     for eachWord in strs: 
         itsKey = tuple(sorted(eachWord))
         # print("its Key", itsKey)
-        ricksDiclol[itsKey] = ricksDiclol.get(itsKey, []) + [eachWord]
-        # print(ricksDiclol[itsKey])
-    return list(ricksDiclol.values())
+        dict1[itsKey] = dict1.get(itsKey, []) + [eachWord]
+        # print(dict1[itsKey])
+    return list(dict1.values())
         
 
 print(csGroupAnagrams(["apt","pat","ear","tap","are","arm"])) # [["apt","pat","tap"],["ear","are"],["arm"]]
-print(csGroupAnagrams([""])) # [[""]]
-print(csGroupAnagrams(["a"])) # [["a"]]
+# print(csGroupAnagrams([""])) # [[""]]
+# print(csGroupAnagrams(["a"])) # [["a"]]
