@@ -17,3 +17,5 @@ def csIsomorphicStrings(a, b):
             return False
             
     return True
+
+print(csIsomorphicStrings("odd", "egg"))
