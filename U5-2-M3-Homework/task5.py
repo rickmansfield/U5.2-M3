@@ -1,5 +1,6 @@
 import builtins
 # print(help(dict))
+# print(help({}))
     # new dictionary initialized from a mapping object's (key, value) pairs
 # print(help(tuple))
     #  If no argument is given, the constructor returns an empty tuple.
@@ -13,6 +14,8 @@ import builtins
     #  an object providing a view on D's values
 # print(help(dict.get))
     # Return the value for key if key is in the dictionary, else default.
+# print(help(""))
+    # returns a huge list of possibilities including "".join
 
 
 def csGroupAnagrams(strs):
