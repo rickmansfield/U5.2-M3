@@ -21,7 +21,7 @@ print(help(range))
 
 """
 Resources
-
+https://docs.python.org/3.6/search.html?q=
 https://github.com/LambdaSchool
 https://github.com/LambdaSchool/CS-Wiki
 https://github.com/LambdaSchool/CS-Wiki/wiki/Javascript-Python-cheatsheet
