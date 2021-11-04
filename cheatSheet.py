@@ -18,3 +18,11 @@ print(help(""))
     # returns a huge list of possibilities including "".join
 print(help("".split))
 print(help(range))
+
+"""
+Resources
+
+https://github.com/LambdaSchool
+https://github.com/LambdaSchool/CS-Wiki
+https://github.com/LambdaSchool/CS-Wiki/wiki/Javascript-Python-cheatsheet
+"""
