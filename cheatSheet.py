@@ -25,4 +25,6 @@ Resources
 https://github.com/LambdaSchool
 https://github.com/LambdaSchool/CS-Wiki
 https://github.com/LambdaSchool/CS-Wiki/wiki/Javascript-Python-cheatsheet
+https://github.com/LambdaSchool/CS-Wiki/wiki/How-to-Read-Specifications-and-Code
+https://docs.python.org/3.6/library/
 """
