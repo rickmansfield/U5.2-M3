@@ -24,7 +24,7 @@ def csWordPattern(pattern, a):
                 return False
     return True
 
-# print(csWordPattern("abba", "lambda school school lambda"))
-# print(csWordPattern("abba", "lambda school school coding"))
-# print(csWordPattern("aaaa", "lambda school school lambda"))
-# print(csWordPattern("abba", "lambda lambda lambda lambda"))
+print(csWordPattern("abba", "lambda school school lambda"))
+print(csWordPattern("abba", "lambda school school coding"))
+print(csWordPattern("aaaa", "lambda school school lambda"))
+print(csWordPattern("abba", "lambda lambda lambda lambda"))
